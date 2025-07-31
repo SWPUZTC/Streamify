@@ -1,0 +1,14 @@
+{
+  "name": "streamify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm install --prefix backend && pnpm install --prefix frontend && pnpm run build --prefix frontend",
+    "start": "pnpm run dev --prefix frontend && pnpm run dev --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1"
+}
